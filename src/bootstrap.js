@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './style/main.scss';
 
 import Home from './components/home';
-
+import Results from './components/results';
 
 function main() {
   ReactDOM.render(
@@ -20,7 +20,7 @@ function main() {
       <BrowserRouter>
         <Switch>
             <Route path='/' component={Home}/>
-            <Route path='/results' component={Home}/>
+            <Route path='/results' component={Results}/>
         </Switch>
       </BrowserRouter>
     </Provider>
